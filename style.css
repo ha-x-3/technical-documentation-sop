@@ -1,0 +1,94 @@
+html, body {
+    min-width: 290px;
+    color: black;
+    background-color: #ffcccb;
+    font-family: Tahoma;
+    line-height: 1.5;
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 200px;
+    top: 0px;
+    left: 0px;
+    background-color: #ff9a98;
+    width: 210px;
+    height: 100%;
+    border-right: solid;
+    border-color: black;
+  }
+  
+  header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.6em;
+  }
+  
+  #title {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7EOjKmZ_HffGWCzdIrPgPI_bmcvUBnEn2xA&usqp=CAU);
+    background-size: cover;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 4px #ff9a98 inset;
+    padding: 0;
+  }
+  
+  #main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+  
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #navbar li {
+    color: black;
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 230px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  .main-section header {
+    font-weight:bold;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    margin: 14px;
+  }
+  
+  table td {
+    border: 1px solid black;
+  }
+  
+  table th {
+    border: 1px solid black;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  }
