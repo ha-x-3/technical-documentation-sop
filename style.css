@@ -92,3 +92,60 @@ html, body {
       margin-left: -10px;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: solid;
+    border-color: black;
+  }
+
+  #navbar ul {
+    height: auto;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #navbar li {
+    display: inline-block;
+    width: auto;
+    border-top: none;
+  }
+
+  #navbar a {
+    padding: 5px 10px;
+  }
+
+  #main-doc {
+    position: static;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .table {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    margin: 14px 0;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
